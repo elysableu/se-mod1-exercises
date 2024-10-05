@@ -8,7 +8,7 @@ class Unicorn
   end
   
   def silver?
-    return true if color == "silver"
+    return true if @color == "silver"
     false
   end
 
